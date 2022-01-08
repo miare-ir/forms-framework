@@ -6,4 +6,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Form Framework"
-include ':app'
+include ':library'
