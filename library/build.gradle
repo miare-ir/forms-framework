@@ -41,7 +41,8 @@ project.afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                artifact androidSourcesJar // optional sources
+                groupId = 'ir.miare'
+                artifactId = 'library'
             }
         }
     }
